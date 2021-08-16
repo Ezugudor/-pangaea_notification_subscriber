@@ -5,9 +5,40 @@
 [![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 
+<!-- ABOUT THE PROJECT -->
+## About
+
 Pub/Sub Notification System RESTFUL api project built with Laravel/Lumen framework.Observing the SOLID principle.
 
 
+### Built With
+
+This project is built with the following frameworks.
+* [Laravel/Lumen](https://laravel.com)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Get this service up and running in your machine, just 3 easy steps as follow:
+
+  
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Ezugudor/pangaea_notification_publisher
+   ```
+2. Rename example.env file to .env
+   ```sh
+   sudo mv example.env .env 
+   ```
+3. Install dependencies
+   ```sh
+   composer install
+   ```
+Thats all fire up the server and your are good to go!
 
 ## Contributing
 
