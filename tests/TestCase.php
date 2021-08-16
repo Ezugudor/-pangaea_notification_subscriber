@@ -12,10 +12,6 @@ abstract class TestCase extends BaseTestCase implements Httpstatuscodes
     public function setUp(): void
     {
         parent::setUp();
-        $this->client = new GuzzleHttp\Client([
-            'base_uri' => 'http://draw-api/api/',
-            'exceptions' => false,
-        ]);
     }
 
     /**
